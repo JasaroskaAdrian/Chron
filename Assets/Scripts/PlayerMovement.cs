@@ -28,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        // This reads what the User is inputting and storing the current button to moveInput
         moveInput = controls.Player.Move.ReadValue<Vector2>();
     }
 
