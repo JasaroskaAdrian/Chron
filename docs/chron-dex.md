@@ -2,9 +2,10 @@
 
 ## Template
 
-### #000 Name
-Type:
-Habitat:
+### #000 Volkrak
+Type: Fire
+Habitat: 
 Description:
+Status: Bound/Unbound
 Abilities:
 Evolution:

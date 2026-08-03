@@ -25,7 +25,7 @@ Instead of capturing creatures directly, players collect their remains and perfo
 - Unity 6
 - C#
 - Git
-- Universal Render Pipeline (URP)
+- Aseprite
 
 ## Current Status
 
@@ -36,9 +36,9 @@ The project is currently focused on building the core gameplay systems and estab
 ## Roadmap
 
 - [x] Initialize Unity project
-- [ ] Player movement
-- [ ] Camera follow
-- [ ] Tilemap system
+- [x] Player movement
+- [x] Camera follow
+- [x] Tilemap system
 - [ ] Random encounters
 - [ ] First battle prototype
 - [ ] Bone drop system
