@@ -6,7 +6,8 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb2D;
     private PlayerControls controls;
 
-    public float speed = 5f;
+    [SerializeField] private float walkSpeed = 5f;
+    [SerializeField] private float sprintMultiplier = 1.75f;
 
     private Vector2 moveInput;
 
@@ -34,6 +35,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb2D.MovePosition(rb2D.position + moveInput * speed * Time.fixedDeltaTime);
+        float currentSpeed = walkSpeed;
+
+        if (controls.Player.Sprint.IsPressed())
+        {
+            currentSpeed *= sprintMultiplier;
+        }
+        rb2D.MovePosition(rb2D.position + moveInput * currentSpeed * Time.fixedDeltaTime);
+        Debug.Log(currentSpeed);
     }
 }
