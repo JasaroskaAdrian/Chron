@@ -5,3 +5,13 @@
 ## Battles
 
 ## Inventory
+
+## Crafting
+
+## Progression
+
+## NPCs
+
+## Economy
+
+## Save System

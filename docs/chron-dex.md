@@ -1,11 +1,22 @@
-# Chron Dex
-
 ## Template
 
 ### #000 Volkrak
-Type: Fire
-Habitat: 
+
+Type:
+Habitat:
+Height:
+Weight:
+Temperament:
+
 Description:
-Status: Bound/Unbound
+
 Abilities:
+
 Evolution:
+
+Status:
+Bound / Unbound
+
+Found In:
+
+Drops:
